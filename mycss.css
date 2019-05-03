@@ -1,0 +1,38 @@
+/* THESE ARE THE CUSTOM STYLINGS OF MY BUTTONS */
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+.button.default {
+    background-color: #F20544;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .button.emphasis {
+    background-color: #F24405;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .button.secondary {
+    background-color:#BF045B;
+    border-color: transparent;
+    color: #fff;
+  }
+
+  .button.small {
+    font-size: 1rem;
+  }
+  
+  .button.medium {
+    font-size: 2rem;
+  }
+  
+  .button.large {
+    font-size: 4rem;
+  }
