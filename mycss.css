@@ -39,3 +39,34 @@
 
 /* THESE ARE THE CUSTOM STYLINGS OF MY FORMS */
 
+.field-label .label {
+  font-size: inherit;
+}
+.field-label.small {
+  font-size: 1rem;
+  padding-top: 0.375em;
+}
+.field-label.medium {
+  font-size: 2rem;
+  padding-top: 0.375em;
+}
+.field-label.large {
+  font-size: 4rem;
+  padding-top: 0.375em;
+}
+
+.input.small,
+.textarea.is-small {
+  font-size: 0.75rem;
+}
+
+.input.medium,
+.textarea.is-medium {
+  font-size: 1.25rem;
+}
+
+.input.large,
+.textarea.is-large {
+  font-size: 1.5rem;
+}
+

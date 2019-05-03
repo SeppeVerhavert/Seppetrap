@@ -27,27 +27,44 @@
 
     <h2>Form Layout</h2>
 
-        <h3>Sizes</h3>
+    <div class="field horizontal">
+        <div class="field-label small">
+          <label class="label">Small Form Title</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input small" type="text" placeholder="Small sized input">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="field horizontal">
+        <div class="field-label medium">
+            <label class="label">Medium Form Title</label>
+        </div>
+        <div class="field-body">
             <div class="field">
-                <label class="label small">Small input</label>
-                    <input class="input" type="email" placeholder="Small Username">
-                        <span class="icon small left"></span>
-                        <span class="icon small right"></span>
+                <div class="control">
+                    <input class="input medium" type="text" placeholder="Medium sized input">
                 </div>
             </div>
+        </div>
+    </div>
 
+    <div class="field horizontal">
+        <div class="field-label large">
+            <label class="label">Large Form Title</label>
+        </div>
+        <div class="field-body">
             <div class="field">
-                <label class="label is-medium">Medium input</label>
-                <div class="control has-icons-left has-icons-right">
-                  <input class="input is-medium" type="email" placeholder="Extra small">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-envelope fa-xs"></i>
-                  </span>
-                  <span class="icon is-small is-right">
-                    <i class="fas fa-check fa-xs"></i>
-                  </span>
+                <div class="control">
+                    <input class="input large" type="text" placeholder="Large sized input">
                 </div>
-              </div>
-              
+            </div>
+        </div>
+    </div>
+      
 </body>
 </html>
