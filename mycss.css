@@ -55,6 +55,10 @@
   padding-top: 0.375em;
 }
 
+.field.horizontal {
+  display: flex;
+}
+
 .input.small,
 .textarea.is-small {
   font-size: 0.75rem;
@@ -70,3 +74,37 @@
   font-size: 1.5rem;
 }
 
+/* THESE ARE THE CUSTOM STYLINGS OF MY GRID */
+
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+  color: #fff;
+  background-color: #210140;
+}
+
+.column.full{
+  flex: none;
+  width: 100%;
+}
+.column.three-quarters {
+  flex: none;
+  width: 75%;
+}
+.column.half {
+  flex: none;
+  width: 50%;
+}
+.column.one-quarter {
+  flex: none;
+  width: 25%;
+}
