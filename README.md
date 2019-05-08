@@ -10,7 +10,7 @@ Open a **container** so Seppetrap knows that you want to make a grid.
 The grid is displayed in **rows first** and columns second.
 
 Rows are flex-based and dispalyed inline.
-Rows have no padding to fit the '<container>'.
+Rows have no padding to fit the container.
 Rows have a purple background and white text.
   
 options for rows are:
