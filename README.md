@@ -3,11 +3,11 @@ My own CSS framework
 
 https://seppeverhavert.github.io/Seppetrap/
 
-<h3> How the grid works <h3>
+# How the grid works
   
-Open a <container> so Seppetrap knows that you want to make a grid.
+Open a **container** so Seppetrap knows that you want to make a grid.
 
-The grid is displayed in rows first and columns second.
+The grid is displayed in **rows first** and columns second.
 
 Rows are flex-based and dispalyed inline.
 Rows have no padding to fit the <container>.
@@ -21,10 +21,10 @@ options for rows are:
   - row-stretch: align-items: stretch;
   - row-baseline: align-items; baseline;
   
-  Rows are divided in 10 columns and are presented in numbers.
+  Rows are divided in **10 columns** and are presented in numbers.
   eg: column: column-50 will display a column with a width of half your row.
   
-  Columns can be offset in 10 steps.
+  Columns can be offset in **10 steps**.
   eg: column-offset-50 will make the column start at half the row width.
   
   Columns can be aligned in the rows.
