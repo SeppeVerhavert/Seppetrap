@@ -1,3 +1,21 @@
+html {
+  background-color: #2E0259;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  color: #F24405;
+  font-size: 3em;
+  text-align: center;
+}
+
+
 /* THESE ARE THE CUSTOM STYLINGS OF MY BUTTONS */
 
 .buttons {
@@ -8,13 +26,13 @@
 }
 
 .button.default {
-  background-color: #F20544;
+  background-color:#F24405 ;
   border-color: transparent;
   color: #fff;
 }
 
 .button.emphasis {
-  background-color: #F24405;
+  background-color:#F20544;
   border-color: transparent;
   color: #fff;
 }
@@ -133,7 +151,6 @@
   width: 90%;
   color: white;
   background-color: #F24405;
-  text-align: center;
   border: #2E0259 2px solid;
   justify-items: center;
   align-items: center;
