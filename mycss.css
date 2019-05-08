@@ -1,5 +1,5 @@
 html {
-  background-color: #2E0259;
+  background-color: rgb(33, 1, 64);
   color: white;
 }
 
@@ -15,6 +15,19 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: #BF045B;
+  font-size: 2em;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgba(46, 2, 89,0.7);
+  width: 90%;
+  margin:2.5%;
+  padding: 2.5%;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
 /* THESE ARE THE CUSTOM STYLINGS OF MY BUTTONS */
 
@@ -23,36 +36,42 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  
+}
+
+.button {
+  border-color: transparent;
+  box-shadow: 10px 10px 5px 0px rgba(33, 1, 64,.75);
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 2.5px;
 }
 
 .button.default {
-  background-color:#F24405 ;
-  border-color: transparent;
-  color: #fff;
+  background-color:#F24405 ; 
 }
 
 .button.emphasis {
   background-color:#F20544;
-  border-color: transparent;
-  color: #fff;
 }
 
 .button.secondary {
   background-color:#BF045B;
-  border-color: transparent;
-  color: #fff;
 }
 
 .button.small {
   font-size: 1rem;
+  border-radius: 2.5px;
 }
   
 .button.medium {
   font-size: 2rem;
+  border-radius: 5px;
 }
   
 .button.large {
   font-size: 4rem;
+  border-radius: 10px;
 }
 
 /* THESE ARE THE CUSTOM STYLINGS OF MY FORMS */
@@ -261,4 +280,27 @@ h2 {
 
 .column-center {
   align-self: center;
+}
+
+/* THESE ARE THE CUSTOM STYLINGS OF MY LISTS */
+
+ol {
+  background:rgb(242, 68, 5) ; 
+  padding: 20px;
+}
+
+ul {
+  background: rgb(242, 68, 5);
+  padding: 20px;
+}
+
+ol li {
+  background: rgb(241, 176, 152);
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: rgb(241, 176, 152);
+  margin: 5px;
 }
