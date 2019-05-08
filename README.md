@@ -3,7 +3,7 @@ My own CSS framework
 
 https://seppeverhavert.github.io/Seppetrap/
 
-<h3> How the grid works
+<h3> How the grid works <h3>
   
 Open a <container> so Seppetrap knows that you want to make a grid.
 
@@ -25,7 +25,12 @@ options for rows are:
   eg: column: column-50 will display a column with a width of half your row.
   
   Columns can be offset in 10 steps.
-  eg: column-offset-50 will make the column start at half the 
+  eg: column-offset-50 will make the column start at half the row width.
+  
+  Columns can be aligned in the rows.
+  - column-top:  align-self: flex-start;
+  - column-bottom: align-self: flex-end;
+  - column-center: align-self: center;
   
 
   
