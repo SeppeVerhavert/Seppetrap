@@ -1,6 +1,7 @@
 html {
   background-color: rgb(33, 1, 64);
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -27,6 +28,7 @@ body {
   margin:2.5%;
   padding: 2.5%;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-align: center;
 }
 
 /* THESE ARE THE CUSTOM STYLINGS OF MY BUTTONS */
@@ -173,7 +175,6 @@ body {
   border: #2E0259 2px solid;
   justify-items: center;
   align-items: center;
-  text-align: center;
 }
 
 .column-offset-10 {
